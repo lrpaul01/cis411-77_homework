@@ -1,0 +1,63 @@
+<html>
+<head>
+<link href="css/bootstrap.css" rel="stylesheet"/>
+<link href="css/style.css" rel="stylesheet:/>"
+
+<title>Registration</title>
+</head>
+    <body>
+            <div>
+
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="welcome.html">Home</a></li>
+                    <li><a href="game.html">Tic Tac Toe</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="registration.html">Registration</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+
+<div class="container">
+  <form role="form" id="registration">
+  <div class="form-group">
+            <label>First Name: (4 character min)</label>
+            <input type="text" name="first-name" minlength="4" type="text" placeholder="First Name" required/>
+            </div>
+    <div class="form-group">
+            <label>Last Name: (4 character min)</label>
+            <input type="text" name="first-name" minlength="4" type="text" placeholder="First Name" required/>
+            </div>
+    <div class="form-group">
+            <label>Date: (yyyy-mm-dd)</label>
+            <input type="text" name="date" data-validation="date" data-validation-format="yyy-mm-dd" placeholder="Date">
+        </div>
+    <div class="form-group">
+            <label>Age: (Email)</label>
+            <input type="text" name="first-name" minlength="2" type="text" placeholder="First Name" required/>
+            </div>
+    <div class="form-group">
+            <label>Comments: (Must Enter Something)</label></div>
+            <textarea name="message" class="required" id="comment" class="input-xlarge span5" rows="10"></textarea>
+        </div>
+    
+        <button type="submit" class="btn btn-primary pull-left">Send</button>
+    </div>
+    </div>
+</form>
+</div>
+<script src="js/jquery-1.11.0.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script>
+$('#contact').validate({
+
+rules: {
+message: "required"
+minlength: "4"
+date: true
+}
+
+});
+</script>
+</body>
+</html>

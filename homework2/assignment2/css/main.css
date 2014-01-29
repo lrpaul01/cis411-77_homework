@@ -1,0 +1,100 @@
+@charset "utf-8";
+ 
+ html, body {
+ margin: 5px;
+ padding: 10px;
+ border: 2px;
+ color: #000;
+ background: #fff;
+ }
+ html, body, p, th, td, li, dd, dt {
+ font: 1em Arial, Helvetica, sans-serif;
+ }
+ h1, h2, h3, h4, h5, h6 {
+ font-family: Arial, Helvetica, sans-serif;
+ }
+ h1 { font-size: 2em; }
+ h2 { font-size: 1.5em; }
+ h3 { font-size: 1.2em ; }
+ h4 { font-size: 1.0em; }
+ h5 { font-size: 0.9em; }
+ h6 { font-size: 0.8em; }
+ a:link { color: #00f; }
+ a:visited { color: #009; }
+ a:hover { color: #06f; }
+ a:active { color: #0cf; }
+/* if id use #id */
+/* is class use .class */
+
+.table{
+
+height: 300px;
+width: 190px;
+padding: 10px;
+border: 15px solid black;
+
+}
+
+th{
+	border: 15px solid black;
+	width: 200px;
+}
+.textbox{
+	
+    background: transparent url(http://cdn2.editmysite.com/images/util/ui-form/shaded-input-bg.jpg) repeat-x; 
+    outline:0; 
+    height:30px; 
+    width: 190px; 
+  } 
+
+
+.button { 
+   border-top: 1px solid #525659;
+   background: #202529;
+   background: -webkit-gradient(linear, left top, left bottom, from(#aeb9bf), to(#202529));
+   background: -webkit-linear-gradient(top, #aeb9bf, #202529);
+   background: -moz-linear-gradient(top, #aeb9bf, #202529);
+   background: -ms-linear-gradient(top, #aeb9bf, #202529);
+   background: -o-linear-gradient(top, #aeb9bf, #202529);
+   padding: 5.5px 11px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 13px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #85939c;
+   background: #85939c;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #898d8f;
+   background: #898d8f;
+   }
+ .container {
+ 	text-align: center;
+ 	margin:0;
+ 	width:960px;
+ 	position:relative;
+ }
+ .container li{
+ 	display:inline;
+ }
+ .clearfix:after {
+ 	visibility: hidden;
+ 	display: block;
+ 	font-size: 0;
+ 	content: " ";
+ 	height: 0;
+ }
+ #main-nav{
+ 	font-family: Georgia,serif;
+ }

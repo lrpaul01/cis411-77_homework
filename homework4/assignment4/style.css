@@ -95,3 +95,38 @@
     		float: none;
     	}
     }
+
+    @media (max-width: 470px){
+
+    	#header {
+    		position: fixed;
+    		width: 100%;
+    		height: 35px;
+    		top:0;
+    		left:0;
+    	}
+    	#aside{ 
+    		display: none;    		
+    	}
+
+    	body{
+    		padding: 0;
+    	}
+   		#content {
+   			width: 100%;
+   		}
+   		img {
+    	width:80%;
+    	}
+    	#navigation {
+    		margin-top: 100px;
+    	}
+    	#navigation ul li {
+    		display: block;
+
+    	}
+    	#navigation ul li a{
+    		float: none;
+    	}
+
+    }

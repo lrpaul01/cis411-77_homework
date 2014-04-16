@@ -1,4 +1,4 @@
-﻿@model IEnumerable<PetStore.Models.Pet>
+﻿@model IEnumerable<PetStoreInventory.Models.Pet>
 
 @{
     ViewBag.Title = "Index";
@@ -8,6 +8,14 @@
 
 <p>
     @Html.ActionLink("Create New", "Create")
+
+    @using (Html.BeginForm("Index", "Pets", FormMethod.Get))
+    {
+    <p> Name: @Html.TextBox("SearchString") <br />
+        <input type="submit" value="Filter" />
+    </p>
+    }
+    
 </p>
 <table class="table">
     <tr>

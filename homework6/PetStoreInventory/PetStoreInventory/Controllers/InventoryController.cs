@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace PetStore.Controllers
+namespace PetStoreInventory.Controllers
 {
     public class InventoryController : Controller
     {

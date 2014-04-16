@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Data.Entity;
-namespace PetStore.Models
+namespace PetStoreInventory.Models
 {
     public class Pet
     {
